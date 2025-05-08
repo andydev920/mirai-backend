@@ -1,0 +1,2 @@
+jp.mirai.framework.tracer.config.MiraiTracerAutoConfiguration
+jp.mirai.framework.tracer.config.MiraiMetricsAutoConfiguration

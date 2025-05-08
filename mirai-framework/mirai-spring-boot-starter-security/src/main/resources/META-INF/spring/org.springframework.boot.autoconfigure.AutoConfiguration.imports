@@ -1,0 +1,3 @@
+jp.mirai.framework.security.config.MiraiSecurityAutoConfiguration
+jp.mirai.framework.security.config.MiraiWebSecurityConfigurerAdapter
+jp.mirai.framework.operatelog.config.MiraiOperateLogConfiguration

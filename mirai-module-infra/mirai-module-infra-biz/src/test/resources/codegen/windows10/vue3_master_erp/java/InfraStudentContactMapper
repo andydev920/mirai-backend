@@ -1,0 +1,30 @@
+package jp.mirai.module.infra.dal.mysql.demo;
+
+import java.util.*;
+
+import jp.mirai.framework.common.pojo.PageResult;
+import jp.mirai.framework.common.pojo.PageParam;
+import jp.mirai.framework.mybatis.core.query.LambdaQueryWrapperX;
+import jp.mirai.framework.mybatis.core.mapper.BaseMapperX;
+import jp.mirai.module.infra.dal.dataobject.demo.InfraStudentContactDO;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * 学生联系人 Mapper
+ *
+ * @author mirai
+ */
+@Mapper
+public interface InfraStudentContactMapper extends BaseMapperX<InfraStudentContactDO> {
+
+    default PageResult<InfraStudentContactDO> selectPage(PageParam reqVO, Long studentId) {
+        return selectPage(reqVO, new LambdaQueryWrapperX<InfraStudentContactDO>()
+            .eq(InfraStudentContactDO::getStudentId, studentId)
+            .orderByDesc(InfraStudentContactDO::getId));
+    }
+
+    default int deleteByStudentId(Long studentId) {
+        return delete(InfraStudentContactDO::getStudentId, studentId);
+    }
+
+}

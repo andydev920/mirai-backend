@@ -1,0 +1,2 @@
+jp.mirai.framework.redis.config.MiraiRedisAutoConfiguration
+jp.mirai.framework.redis.config.MiraiCacheAutoConfiguration

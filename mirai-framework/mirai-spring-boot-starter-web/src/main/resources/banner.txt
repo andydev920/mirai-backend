@@ -1,0 +1,9 @@
+Application Version: ${mirai.info.version}
+Spring Boot Version: ${spring-boot.version}
+
+ __   __ _ .___      .    _
+ |    |  | /   \    /|    |
+ |\  /|  | |__-'   /  \   |
+ | \/ |  | |  \   /---'\  |
+ /    /  / /   \,'      \ /
+

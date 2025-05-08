@@ -1,0 +1,13 @@
+# 编译输出
+target/
+build/
+
+# IDEA 文件
+.idea/
+*.iml
+
+# 日志
+*.log
+
+# 本地配置
+# *.env

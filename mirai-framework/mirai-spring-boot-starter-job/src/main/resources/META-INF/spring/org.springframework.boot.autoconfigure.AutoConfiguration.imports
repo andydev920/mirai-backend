@@ -1,0 +1,2 @@
+jp.mirai.framework.quartz.config.MiraiQuartzAutoConfiguration
+jp.mirai.framework.quartz.config.MiraiAsyncAutoConfiguration

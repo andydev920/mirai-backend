@@ -1,0 +1,3 @@
+jp.mirai.framework.datasource.config.MiraiDataSourceAutoConfiguration
+jp.mirai.framework.mybatis.config.MiraiMybatisAutoConfiguration
+jp.mirai.framework.translate.config.MiraiTranslateAutoConfiguration

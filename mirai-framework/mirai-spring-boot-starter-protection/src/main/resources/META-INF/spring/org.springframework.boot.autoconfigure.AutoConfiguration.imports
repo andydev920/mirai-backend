@@ -1,0 +1,4 @@
+jp.mirai.framework.idempotent.config.MiraiIdempotentConfiguration
+jp.mirai.framework.lock4j.config.MiraiLock4jConfiguration
+jp.mirai.framework.ratelimiter.config.MiraiRateLimiterConfiguration
+jp.mirai.framework.signature.config.MiraiApiSignatureAutoConfiguration

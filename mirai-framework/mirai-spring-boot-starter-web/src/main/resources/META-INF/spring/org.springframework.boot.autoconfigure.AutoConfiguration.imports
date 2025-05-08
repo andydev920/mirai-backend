@@ -1,0 +1,6 @@
+jp.mirai.framework.apilog.config.MiraiApiLogAutoConfiguration
+jp.mirai.framework.jackson.config.MiraiJacksonAutoConfiguration
+jp.mirai.framework.swagger.config.MiraiSwaggerAutoConfiguration
+jp.mirai.framework.web.config.MiraiWebAutoConfiguration
+jp.mirai.framework.xss.config.MiraiXssAutoConfiguration
+jp.mirai.framework.banner.config.MiraiBannerAutoConfiguration

@@ -1,0 +1,3 @@
+jp.mirai.framework.mq.redis.config.MiraiRedisMQProducerAutoConfiguration
+jp.mirai.framework.mq.redis.config.MiraiRedisMQConsumerAutoConfiguration
+jp.mirai.framework.mq.rabbitmq.config.MiraiRabbitMQAutoConfiguration
