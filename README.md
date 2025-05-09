@@ -1,12 +1,12 @@
 # みらい バクエンド（mirai backend）
----
+
 > Spring Boot をベースにしたバックエンド管理システムです。  
 > ユーザー管理・認証・データ統計・メニュー管理・API管理・コード生成・辞書管理などの機能を提供します。  
 > 基于Spring Boot的总后台管理系统。支持用户管理、权限认证、数据统计、菜单管理、API 管理、字典管理、代码生成等后台功能模块。
 
 
 ## モジュール（API Module）
----
+
 | 项目                       | 説明                 |
 |--------------------------|--------------------|
 | `mirai-dependencies`     | Maven の依存関係バージョン管理 |
@@ -19,7 +19,7 @@
 
 
 ## 技術スタック（使用技术栈）
----
+
 - Java 17 / 11
 - Spring Boot 2.7.18
 - MyBatis Plus（マイバティス拡張）
@@ -30,7 +30,7 @@
 - Lombok, Swagger など
 
 ## クイックスタート（快速开始）
----
+
 ### 環境要件（环境要求）
 
 - JDK 17 以上
@@ -41,9 +41,9 @@
 
 
 ### 事前準備（启动前准备）
----
-- Redis を Docker で起動します（建议使用 Docker 启动 Redis）：
 
+- Redis：
+> Redis を Docker で起動します（建议使用 Docker 启动 Redis）
   #### Docker インストール（安装 Docker）：
 
    - [Docker 公式サイト](https://docs.docker.com/get-docker/) より環境に応じたバージョンをインストールしてください。
@@ -58,7 +58,7 @@
   redis:7.4.6
    ```
 ### 起動手順（启动步骤）
----
+
 1. プロジェクトをクローン（克隆项目）：
    ```bash
    git clone https://github.com/andydev920/mirai-backend.git
